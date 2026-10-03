@@ -111,3 +111,11 @@ footer {
     grid-template-columns: 1fr;
     gap: 20px;
 }
+article {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
