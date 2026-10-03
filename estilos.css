@@ -111,3 +111,17 @@ footer {
     grid-template-columns: 1fr;
     gap: 20px;
 }
+article {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+header {
+    background: linear-gradient(135deg, #5d4037, #8d6e63);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
